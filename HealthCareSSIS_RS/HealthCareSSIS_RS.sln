@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1022
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "HealthCareSSIS_RS", "HealthCareSSIS_RS\HealthCareSSIS_RS.dtproj", "{2D2FB93B-EDF9-4365-8CF8-43D8EE59EE36}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2D2FB93B-EDF9-4365-8CF8-43D8EE59EE36}.Development|Default.ActiveCfg = Development
+		{2D2FB93B-EDF9-4365-8CF8-43D8EE59EE36}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6A582E6-F442-4549-856A-7B3A3C8290BB}
+	EndGlobalSection
+EndGlobal
