@@ -15,8 +15,8 @@
       <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{4980a1e4-27a3-479d-ba14-b32952ab3c55}</SSIS:Property>
-          <SSIS:Property SSIS:Name="Name">HealthCareSSIS_RS</SSIS:Property>
-          <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+          <SSIS:Property SSIS:Name="Name">HealthCareSSIS</SSIS:Property>
+          <SSIS:Property SSIS:Name="VersionMajor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionComments">
@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">THINKPAD-LQT</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAImam11B7ek+VvAcEwvt1MwAAAAACAAAAAAAQZgAAAAEAACAAAAClZ9FLwO7iqR1d+vYKWcgkVq3XJocPVhkYIFyrNQD+IQAAAAAOgAAAAAIAACAAAAAqcju8RMXe7JxpMS0oQncpSx/7P4UZHjwtgvWa5mWcwZAAAAB9J3BtMHGKegrh9n15iK3cyTPVGW2bUyXtYPidug1TQNsIXO4nn07HchuHoUDREQPophLjEK8ug0yl/Fq33eX1LmW0HG8oIwS6pwCI8csJqiY1Q6Yt5MF0TqQOndZvc1OUv5Lvzgm+W5en/PnrivSuYGTGzXece1g+FujBlDk3b/sV4joeB1ujB0xwN5G8ZMpAAAAAnIH5OYfFfpEfinXbPVoWmMPKGttY56wKfCEYeY3UdTEJnmjdZcdEEyvHXHZvvvk3xlj3rjHEPIUpSsrcsbr5tw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAImam11B7ek+VvAcEwvt1MwAAAAACAAAAAAAQZgAAAAEAACAAAAAtYjutrgpUa1T3QJ7Cph1Uel6Ki6qDifjobte++ROd3wAAAAAOgAAAAAIAACAAAAC7bCoKabiT7VVowbWJ3/3KsB+HL2sXSJqfdGgZt6bALJAAAADN7+XVQaTDrawFaa0WgWq3rSo8/wolNkJ+OTVcMTM93K2RTaFEft7RSAgkgmPDNtb+hGHNOmdDtSYxDD566/tnIOLZLMe/XnVE+pEH8cYuodVPZkke49hzVx1WqPVgaSNoqn6ChJ/3rPNVa543CMIRGmdSnhJbtVrBa+geDEcChqaNvRfDeHldljuoRBXIR3hAAAAAtW0jgvk7Lego4+D600QRzUhKaVN8G7M2dUgUWEpoAf4qYD7V0m7BDU/aCS3UqGta3b1/SkdyRDylZAP8dmb6bw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>

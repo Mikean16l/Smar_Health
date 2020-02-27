@@ -15,8 +15,8 @@
       <SSIS:Project SSIS:ProtectionLevel="EncryptSensitiveWithUserKey" xmlns:SSIS="www.microsoft.com/SqlServer/SSIS">
         <SSIS:Properties>
           <SSIS:Property SSIS:Name="ID">{4980a1e4-27a3-479d-ba14-b32952ab3c55}</SSIS:Property>
-          <SSIS:Property SSIS:Name="Name">HealthCareSSIS_RS</SSIS:Property>
-          <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
+          <SSIS:Property SSIS:Name="Name">HealthCareSSIS</SSIS:Property>
+          <SSIS:Property SSIS:Name="VersionMajor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionBuild">0</SSIS:Property>
           <SSIS:Property SSIS:Name="VersionComments">
@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">THINKPAD-LQT</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAImam11B7ek+VvAcEwvt1MwAAAAACAAAAAAAQZgAAAAEAACAAAACkvhx1BZd0ZEI3+b6CyEd+IoihllsaZ0cFNX8klW1bvgAAAAAOgAAAAAIAACAAAAD39l3wzzf/y4YqUW0EKp3X0IwPkyxqMZR+Ka5o0uEhApAAAAB86k3vKUCWxKYb3Xr/1Kc5w4fkrw4UWfCabBJN0ftTn4eulaI3HVxj0hn7XbSVr4jDANlNXZkaPcF/u5AK/awoe5f9Efd/qORJHkDpa5zkklGmUdup3S4euSM6xAlfXFJRKCAGIFleNEc4+fNLAXnNy5uofKWTddmdyCbgbz3VmsLaxf507KFHkABqVrGzW2NAAAAAVCmUZzon18ExBXmuxCoaO22yrhUj05XVk9EkJgVllFTJdfH7VV2+L85xcD8T2M5adStA94YenkXppa0jwMarxw==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAImam11B7ek+VvAcEwvt1MwAAAAACAAAAAAAQZgAAAAEAACAAAADKpYHKejvwHH25vfB7NF/V4zx1CUEMz0ELm7QKgeVgBwAAAAAOgAAAAAIAACAAAACV1rVe/lElS+pCfBtFOWhXvWzknzd9E0ZlbiitAhGj0ZAAAABNIHznq6vSzK8OACU6oweFQfJRmdc2erD1xHkHQXmt89h1/wvyIEeKgzVR+MMU06OCIqIOsxtbl0Mfex7gRtM/Ac0gEN/WFkpDysz83KemOhLHcWH2YI9YhvLHYq1e1cpkII00YGz6vmW/7+H72j8awmzVUuJXJZV+d4o5Vthtacqtd8QVXFncLssAvPvBtptAAAAAhoOVQAutJ7jwHI9ze+gdh3uz9Sk85agMDnSssc5vFoA8NtlNpw5mQYEgfBYAgRgPZuJcy+CnSW4VtLjSb5Uqiw==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">Package</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">3</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">4</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{E50B05FC-A379-4D29-8606-96BDB4E9264B}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{9EFE675B-41E3-45EA-A2CE-4B29F964AB1F}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
