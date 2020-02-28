@@ -51,5 +51,8 @@
   <ItemGroup>
     <DataSource Include="AmplaHealth.rds" />
   </ItemGroup>
+  <ItemGroup>
+    <Report Include="Report1.rdl" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
