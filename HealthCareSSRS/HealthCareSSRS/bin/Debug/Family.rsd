@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SharedDataSet xmlns="http://schemas.microsoft.com/sqlserver/reporting/2010/01/shareddatasetdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSet Name="DataSet1">
+    <Query>
+      <DataSourceReference>AmplaHealth</DataSourceReference>
+      <DataSetParameters>
+        <DataSetParameter Name="@FAMILYNUMBER">
+          <ReadOnly>false</ReadOnly>
+          <Nullable>false</Nullable>
+          <OmitFromQuery>false</OmitFromQuery>
+          <rd:DbType>Int32</rd:DbType>
+        </DataSetParameter>
+      </DataSetParameters>
+      <CommandType>StoredProcedure</CommandType>
+      <CommandText>family_info</CommandText>
+    </Query>
+    <Fields>
+      <Field Name="FAMILY_NUMBER">
+        <DataField>FAMILY NUMBER</DataField>
+        <rd:TypeName>System.Int32</rd:TypeName>
+      </Field>
+      <Field Name="FAMILY_NAME">
+        <DataField>FAMILY NAME</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ADDRESS1">
+        <DataField>ADDRESS1</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ADDRESS2">
+        <DataField>ADDRESS2</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CITY">
+        <DataField>CITY</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="STATE">
+        <DataField>STATE</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="ZIP1">
+        <DataField>ZIP1</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="ZIP2">
+        <DataField>ZIP2</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="HOME_PHOEN_NUMBER">
+        <DataField>HOME PHOEN NUMBER</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="EMPLOYER_NAME">
+        <DataField>EMPLOYER NAME</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="WORK_PHONE">
+        <DataField>WORK PHONE</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="EMPLOYER_ADDRESS">
+        <DataField>EMPLOYER ADDRESS</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="EMPLOYER_CITY">
+        <DataField>EMPLOYER CITY</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="EMPLOYER_STATE">
+        <DataField>EMPLOYER STATE</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="EMPLOYER_ZIP1">
+        <DataField>EMPLOYER ZIP1</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="CURRENT">
+        <DataField>CURRENT</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="ID31_60">
+        <DataField>31-60</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="ID61_90">
+        <DataField>61-90</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="ID91_120">
+        <DataField>91-120</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="ID121_150">
+        <DataField>121-150</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="OVER_150">
+        <DataField>OVER 150</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="BALANCE_DUE">
+        <DataField>BALANCE DUE</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+      <Field Name="LAST_STATEMENT">
+        <DataField>LAST STATEMENT</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="LAST_CHARGE">
+        <DataField>LAST CHARGE</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="LAST_PAYMENT">
+        <DataField>LAST PAYMENT</DataField>
+        <rd:TypeName>System.DateTime</rd:TypeName>
+      </Field>
+      <Field Name="PRINT_STMT_MSG_">
+        <DataField>PRINT STMT MSG?</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="HOLD_STATEMENTS_">
+        <DataField>HOLD STATEMENTS?</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="CYCLE_DEL_CODE">
+        <DataField>CYCLE/DEL.CODE</DataField>
+        <rd:TypeName>System.String</rd:TypeName>
+      </Field>
+      <Field Name="FINANCIAL_CLASS">
+        <DataField>FINANCIAL CLASS</DataField>
+        <rd:TypeName>System.Decimal</rd:TypeName>
+      </Field>
+    </Fields>
+  </DataSet>
+</SharedDataSet>
